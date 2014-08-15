@@ -1,0 +1,108 @@
+Directory Structure + Organizational Hierarchy of poMMo (https://github.com/soonick/pommo)
+	A.K.A. "What you should expect to be in that file"
+	 
+ Copyright (C) 2005, 2006, 2007  Brice Burgess <bhb@iceburg.net>
+ 
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2 or
+ any later version published by the Free Software Foundation.
+ 
+-----------
+
+pommo/ 
+		"Base Directory"
+		Pommo::$_baseURL will point to this directory relative to its location on the webserver's URL
+		Pommo::$_baseDir will point to this directory relative to its location on the server filesystem
+	 
+
+pommo/config.php
+		The configuration file. Sets up database, locale, debugging, and forced hostname/port.
+	
+
+pommo/bootstrap.php
+		This file is required to access poMMo. It sets up the enviroment and loads the API functions. All PHP scripts require this file @ their header.
+
+
+pommo/admin/
+		"Administrative Directory" - web enabled
+		This directory contains all the pages available to the poMMo administrator. Since poMMo is built around a MVC framework, the "view" (or page content) for each page is found in the pommo/themes/ directory. The themes structure correlates exactly to that of pommo/user or pommo/admin, so that;
+
+		"pommo/admin/mailings/admin_mailings.php" will call;
+		"pommo/themes/default/admin/mailings/admin_mailings.php" for its view if the "default" theme is selected.
+
+
+pommo/admin/*/ajax/
+		"AJAX directory"
+		Files in "AJAX" directories are called via an ajax request & typically return JSON. They are (usually) not associated with a view.
+
+
+pommo/cache/
+		"Work directory" - web disabled (no URL's point here)
+		This is the default working directory, if not explicitly defined in config.php. This directory should be writable by the webserver.
+
+
+pommo/docs/
+		"Documentation Directory"
+		License information, Readme, TODO, This File, etc.
+
+
+pommo/classes/
+		"API Directory" 
+		This directory contains poMMo's base API. Files in this directory must
+		start with the "Pommo_" prefix to indicate that they are part of poMMo's
+		core. Classes are named after the name of the file.
+		Pommo_Db.php = database class
+		Pommo_Api.php = base api functions
+		Pommo_Install.php = install api
+		Pommo_Log.php = logging class
+		Pommo_Mail_Ctl.php = mailing controller API
+		Pommo_Mailer.php = mailing class (extends PHPMailer)
+		Pommo.php = *** pommo class and basic API *** loaded by bootstrap.php
+		Pommo_Template.php = view controller
+		Pommo_Throttler.php = mail throttle class
+		Pommo_Sql.php = SQL generator -- generates grouping SQL statements
+		Pommo_Helper.php = common API helpers. Loaded during bootstrap process.
+		Pommo_Helper_Debug.php = debugging API. Provides functions to dump system info.
+		Pommo_Fields.php = subscriber field API (add/edit/remove/etc)
+		Pommo_Groups.php = subscriber groups API (add/edit/remove/etc)
+		Pommo_Mailing.php = mailing API (add/edit/reload/etc)
+		Pommo_Helper_Maintenance.php = maintenance routines. executed after successful admin login.
+		Pommo_Helper_Messages.php = common message routines (e.g. welcome new subscriber, unsubscribe request, etc).
+		Pommo_Pending.php = pending subscriber API (add/edit/remove/etc)
+		Pommo_Helper_Personalize.php = mailing personalization routines
+		Pommo_Rules.php = group rules API (add/edit/remove/etc) (used to be called "filters")
+		Pommo_Subscribers.php = subscriber API (add/edit/remove/etc)
+		Pommo_Validate.php = validation routines - e.g. verify subscriber data is sane.
+
+
+pommo/lib/
+		"3rd Party Directory"
+		Holds third-party contributions and utilizations -- e.g. PHP Gettext, SafeSQL
+
+
+pommo/sql/
+		sql.sample.php = sample data (loaded @ support library)
+		sql.schema.php = database schema (loaded @ install)
+
+	
+pommo/language
+		"Language Directory" - gettext localizations of poMMo - web disabled (no URL's point here)
+
+
+pommo/language/pommo.pot
+		".POT Translation File" - Up to date base translation file. Contains all strings to be translated.
+
+
+pommo/language/[language]/[language]-pommo.po
+		"Translated .PO file" - A .POT file translated to [language]
+
+
+pommo/language/[language]/LC_MESSAGES/pommo.mo
+		"Compiled .mo file" - A compiled .po file (binary for speed)
+	
+
+pommo/themes/
+		"Theme Template Directory" - web disabled (no URL's point here)
+		Contains the VIEWS (page output) of pommo/admin/*.php and pommo/user/*.php files See the note under pommo/admin for more information.
+
+

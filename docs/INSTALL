@@ -1,0 +1,33 @@
+Installation instructions
+--------------------------------------------------------------------------------
+
+Requirements
+	Server:
+    	* PHP version 4.3.2 or greater
+          - Apache Timeout directive or IIS CGI timeout should be 100+ seconds (both default to 300)
+          - For i18n (other languages) PHP should have gettext support and the languages used need to be installed as locals (check with: locales -a).
+    	* MySQL Server 4.1 or higher
+
+
+For the administrative area you must use a modern webbrowser with JavaScript enabled and supporting CSS2 standards.
+
+
+Quick Install Instructions:
+	1. Make sure your webhost meets the Minimal Requirements
+	2. Download and extract the latest version of poMMo
+		* This should create a directory named 'pommo' wherever you unpacked it. This is known as the poMMo Root. 
+	3. Create a MySQL database on your webserver for poMMo to use.
+	4. Create (and edit) the config.php in your poMMo Root
+		* Save the included config.sample.php (or the simplified config.simple.sample.php) as config.php. 
+		* Make sure the database name, host, and username/password match the values provided in config.php 
+	5. If you have not done so already, copy the entire contents of the poMMo Root to the directory you'd like poMMo to run from on your webserver.
+		* You can use FTP to install poMMo on your webserver 
+	6. Make sure the webserver can write to the "cache" directory in the poMMo root.
+		* This can be accomplished by setting permissions to "777" on a *nix system. 
+	7. Visit your poMMo installation in a web browser and complete the online install procedure.
+
+
+Using poMMo
+
+Once you have copied poMMo to your webserver, visit its location on the web. A script will help you through the rest of the way. When finished, login and visit the settings page to further configure poMMo. After configuration, you'll want to setup subscriber fields and generate a subscription form for your website.
+

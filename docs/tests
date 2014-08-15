@@ -1,0 +1,11 @@
+Im trying to improve the quality of pommo by creating automatic tests that can
+tell us when we break something.
+I am putting this tests in the "tests" folder in the Pommo root dir. If you are
+an end user you can erase that folder without worries.
+
+I am using phpunit for the tests, so if you want to run them you will need to
+install it.
+
+The tests will play with the database information, so if you have information
+there that you dont want to lose. DON'T RUN THE TESTS.
+

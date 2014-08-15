@@ -1,0 +1,117 @@
+Coding Conventions
+
+
+Best practices
+--------------------------------------------------------------------------------
+
+- Single quotes should always be preferred to double quotes.
+- Function and method definitions should be separated by a line and commented using a phpDoc block (View format in comments section).
+- To keep readability in functions and methods, it is wise to return early if simple conditions apply that can be checked at the beginning of a method or function.
+- When comparing a value and a variable always put the value in the left side.
+	If (3 == $val)
+- Dont use php closing tag ?> in situations where it is not needed to avoid new line problems when setting headers.
+
+
+Naming Conventions
+--------------------------------------------------------------------------------
+
+Global Variables and Functions.
+
+- If your package needs to define global variables, their names should start with a single underscore followed by the package name and another underscore.
+- Global functions should be named using the "studly caps".
+
+Classes.
+
+- Classes should be given descriptive names. Avoid using abbreviations where possible. Class names should always begin with an uppercase letter.
+	Class_Name
+
+Class Variables and Methods.
+
+- Public class properties and methods should be named using the "studly caps".
+- Private class members are preceded by a single underscore.
+
+Constants.
+
+- Constants should always be all-uppercase, with underscores to separate words.
+- The true, false and null constants are excepted from the all-uppercase rule, and must always be lowercase.
+
+
+Indenting and Line Length
+--------------------------------------------------------------------------------
+
+- Indent using spaces 4 spaces not tabs.
+- Line length shouldn't exceed 85 characters.
+- If lines are split to fit the 85 characters limit then the new lines should be indented to two tab keys from the position the line started.
+
+
+Control Structures
+--------------------------------------------------------------------------------
+
+- Control statements should have one space between the control keyword and opening parenthesis, to distinguish them from function calls.
+- You are strongly encouraged to always use curly braces even in situations where they are technically optional.
+- Split long if statements onto several lines. Keep the operators at the beginning of the line.
+
+
+Function Calls
+--------------------------------------------------------------------------------
+
+- Functions should be called with no spaces between the function name, the opening parenthesis, and the first parameter; spaces between commas and each parameter, and no space between the last parameter, the closing parenthesis, and the semicolon.
+	$var = foo($bar, $baz, $quux);
+- There should be one space on either side of an equals sign used to assign the return value of a function to a variable. In the case of a block of related assignments, more space may be inserted to promote readability.
+
+
+Class Definitions
+--------------------------------------------------------------------------------
+
+- Class declarations have their opening brace on a new line.
+	class Foo_Bar
+	{
+		//...code goes here
+	}
+
+
+Function Definitions
+--------------------------------------------------------------------------------
+
+- Function declarations follow the "K&R style".
+	function fooFunction($arg1, $arg2 = '')
+	{
+		if (condition)
+		{
+		    statement;
+		}
+		return $val;
+	}
+
+
+Comments
+--------------------------------------------------------------------------------
+
+- Complete inline documentation comment blocks (docblocks) must be provided.
+- Non-documentation comments are strongly encouraged. A general rule of thumb is that if you look at a section of code and think "Wow, I don't want to try and describe that", you need to comment it before you forget how it works.
+- C style comments (/* */) and standard C++ comments (//) are both fine. Use of Perl/shell style comments (#) is discouraged.
+
+Example doc block comment
+	/**
+	 *	validateInstallationData
+	 *	Validates data necessary for installation
+	 *
+	 *	@param	array	$data.- Data to be validated
+	 *
+	 *	@return	boolean	True on success, false otherwise
+	 */
+
+
+PHP Code Tags
+--------------------------------------------------------------------------------
+
+Always use <?php ?> to delimit PHP code, not the <? ?> shorthand.
+
+
+PHP Language constructs
+--------------------------------------------------------------------------------
+
+Avoid using parenthesis when using language constructs. Some examples:
+	use include 'file.php'; instead of include ('file.php');
+	use require 'file.php'; instead of require ('file.php');
+	use return true; instead of return (true);

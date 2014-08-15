@@ -1,0 +1,2232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-04 21:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.php:45
+#, php-format
+msgid "Powerful mailing list software for %s"
+msgstr ""
+
+#: admin.php:52
+msgid ""
+"You have changed the language for this session.\n"
+"\t\t\tTo make this the default language, you must update your config.php\n"
+"\t\t\tfile."
+msgstr ""
+
+#: admin_mailings.php:39 ajax/compose.php:40 ajax/setup.php:41
+#: mailings_start.php:39
+#, php-format
+msgid ""
+"A Mailing is currently processing. Visit the\n"
+"\t\t\t%sStatus%s page to check its progress."
+msgstr ""
+
+#: ajax/ajax.addtemplate.php:48 ajax/field_edit.php:55 ajax/general.php:57
+#: ajax/mailings.php:73 ajax/messages.php:113 ajax/setup.php:104
+#: ajax/users.php:49 install.php:64
+msgid "Cannot be empty."
+msgstr ""
+
+#: ajax/ajax.addtemplate.php:67
+#, php-format
+msgid "Template %s saved."
+msgstr ""
+
+#: ajax/ajax.addtemplate.php:71 ajax/fields.rpc.php:72 setup_fields.php:52
+#: subscribers_groups.php:52
+msgid "Error with addition."
+msgstr ""
+
+#: ajax/ajax.addtemplate.php:76 ajax/ajax.mailingtest.php:112
+#: ajax/ajax.smtp.php:74 ajax/ajax.testexchanger.php:75
+#: ajax/ajax.throttle.php:66 ajax/field_edit.php:95 ajax/general.php:93
+#: ajax/mailings.php:109 ajax/messages.php:220 ajax/setup.php:135
+#: ajax/users.php:88 install.php:137
+msgid "Please review and correct errors with your submission."
+msgstr ""
+
+#: ajax/ajax.mailingtest.php:49 ajax/ajax.testexchanger.php:46
+#: ajax/mailings.php:74 ajax/setup.php:106 ajax/users.php:50 login.php:48
+msgid "Invalid email address"
+msgstr ""
+
+#: ajax/ajax.mailingtest.php:79 mailings_start.php:64
+msgid "Test Mailing"
+msgstr ""
+
+#: ajax/ajax.mailingtest.php:107
+msgid "A mailing is currently taking place. Please try again later."
+msgstr ""
+
+#: ajax/ajax.mailingtest.php:118
+#, php-format
+msgid "%sDemonstration Mode%s is on -- no Emails will actually be sent. This is good for testing settings."
+msgstr ""
+#: ajax/ajax.smtp.php:39
+msgid "Configure"
+msgstr ""
+
+#: ajax/ajax.smtp.php:74 ajax/ajax.throttle.php:40 ajax/ajax.throttle.php:63
+#: ajax/general.php:87 ajax/mailings.php:103 ajax/messages.php:214
+#: ajax/users.php:82
+msgid "Configuration Updated."
+msgstr ""
+
+#: ajax/ajax.testexchanger.php:66
+msgid "Mail Sent."
+msgstr ""
+
+#: ajax/ajax.testexchanger.php:67 classes/Pommo_Helper_Messages.php:180
+msgid "Error Sending Mail"
+msgstr ""
+
+#: ajax/field_edit.php:89
+msgid "Settings updated."
+msgstr ""
+
+#: ajax/field_edit.php:99
+#, php-format
+msgid "%s - Any value will be accepted for text fields. They are useful for collecting names, addresses, etc."
+msgstr ""
+#: ajax/field_edit.php:99
+msgid "Text"
+msgstr ""
+
+#: ajax/field_edit.php:100
+#, php-format
+msgid "%s - Checkboxes can be toggled ON or OFF. They are useful for opt-ins and agreements."
+msgstr ""
+#: ajax/field_edit.php:100
+msgid "Checkbox"
+msgstr ""
+
+#: ajax/field_edit.php:101
+#, php-format
+msgid "%s - Only Numeric values will be accepted for number fields."
+msgstr ""
+#: ajax/field_edit.php:101
+msgid "Number"
+msgstr ""
+
+#: ajax/field_edit.php:102
+#, php-format
+msgid "%s - Only calendar values will be accepted for this field. A date selector (calendar popup) will appear next to the field to aid the subscriber in selecting a date."
+msgstr ""
+#: ajax/field_edit.php:102
+msgid "Date"
+msgstr ""
+
+#: ajax/field_edit.php:103
+#, php-format
+msgid "%s - Subscribers will be able to select a value from the options you provide below. Multiple choice fields have reliable values for organizing, and are useful for collecting Country, Interests, etc."
+msgstr ""
+#: ajax/field_edit.php:103
+msgid "Multiple Choice"
+msgstr ""
+
+#: ajax/field_edit.php:104
+#, php-format
+msgid "%s -. If a subscriber enters a value for a comment field, it will be mailed to the admin notification email."
+msgstr ""
+#: ajax/field_edit.php:104
+msgid "Comment"
+msgstr ""
+
+#: ajax/fields.rpc.php:57
+msgid "Order Updated."
+msgstr ""
+
+#: ajax/fields.rpc.php:88
+#, php-format
+msgid "Deleting option %1$s will affect %2$s subscribers who have selected this choice. They will be flagged as needing to update their records."
+msgstr ""
+#: ajax/fields.rpc.php:89
+msgid "Are you sure?"
+msgstr ""
+
+#: ajax/fields.rpc.php:100 ajax/templates.php:62 setup_fields.php:62
+#: setup_fields.php:78
+msgid "Error with deletion."
+msgstr ""
+
+#: ajax/general.php:56 install.php:66
+msgid "Must be a valid URL"
+msgstr ""
+
+#: ajax/group.rpc.php:145
+msgid "At least 1 \"and\" rule must exist before an \"or\" rule takes effect."
+msgstr ""
+
+#: ajax/group.rpc.php:162
+msgid "Group Renamed"
+msgstr ""
+
+#: ajax/history.list.php:120
+msgid "Complete"
+msgstr ""
+
+#: ajax/history.list.php:122 ajax/status_poll.php:65
+msgid "Processing"
+msgstr ""
+
+#: ajax/history.list.php:124
+msgid "Cancelled"
+msgstr ""
+
+#: ajax/history.list.php:135
+msgid "Mails/Hour"
+msgstr ""
+
+#: ajax/history.rpc.php:53
+#, php-format
+msgid "Displaying notices for mailing %s"
+msgstr ""
+#: ajax/history.rpc.php:97
+msgid "Please Wait"
+msgstr ""
+
+#: ajax/mailings.php:72
+msgid "Enter a number."
+msgstr ""
+
+#: ajax/mailings_send4.php:84
+#, php-format
+msgid "Started Mailing MTA. Spawn #%s."
+msgstr ""
+
+#: ajax/manage.rpc.php:43
+msgid "Error adding subscriber."
+msgstr ""
+
+#: ajax/manage.rpc.php:49 ajax/manage.rpc.php:174
+msgid "Invalid email."
+msgstr ""
+
+#: ajax/manage.rpc.php:59
+#, php-format
+msgid ""
+"%s has already unsubscribed. To\n"
+"\t\t\t\t\t\tadd the subscriber anyway, check the box to force the\n"
+"\t\t\t\t\t\taddition."
+msgstr ""
+
+#: ajax/manage.rpc.php:68
+msgid ""
+"Email address already exists. Duplicates are\n"
+"\t\t\t\t\tnot allowed."
+msgstr ""
+
+#: ajax/manage.rpc.php:85
+msgid "Invalid or missing information."
+msgstr ""
+
+#: ajax/manage.rpc.php:102
+#, php-format
+msgid "Subscriber %s added!"
+msgstr ""
+
+#: ajax/manage.rpc.php:107
+msgid ""
+"Subscriber has been flagged for update due\n"
+"\t\t\t\t\tto invalid or missing information."
+msgstr ""
+
+#: ajax/manage.rpc.php:143
+#, php-format
+msgid "You have removed %s subscribers!"
+msgstr ""
+
+#: ajax/manage.rpc.php:150
+msgid "No subscribers were removed."
+msgstr ""
+
+#: ajax/manage.rpc.php:179 process.php:67 update.php:77
+msgid "Email address already exists. Duplicates are not allowed."
+msgstr ""
+
+#: ajax/manage.rpc.php:183
+msgid "Fields failed validation"
+msgstr ""
+
+#: ajax/manage.rpc.php:185 ajax/manage.rpc.php:190
+msgid "Error updating subscriber."
+msgstr ""
+
+#: ajax/manage.rpc.php:208
+msgid "Subscriber Updated"
+msgstr ""
+
+#: ajax/messages.php:117
+msgid "You must include \"[[URL]]\" for the confirm link"
+msgstr ""
+
+#: ajax/messages.php:135
+msgid "[poMMo Notice]"
+msgstr ""
+
+#: ajax/messages.php:224
+msgid "Subscription"
+msgstr ""
+
+#: ajax/messages.php:225
+msgid "Unsubscription"
+msgstr ""
+
+#: ajax/messages.php:226
+msgid "Pending"
+msgstr ""
+
+#: ajax/messages.php:227
+msgid "Update"
+msgstr ""
+
+#: ajax/preview.php:41
+#, php-format
+msgid "A Mailing is currently processing. Visit the %sStatus%s page to check its progress."
+msgstr ""
+
+#: ajax/preview.php:75
+msgid "Subject or Message cannot be empty!"
+msgstr ""
+
+#: ajax/preview.php:152
+msgid "Cannot send a mailing to 0 subscribers!"
+msgstr ""
+
+#: ajax/setup.php:105
+msgid "Invalid Character Set"
+msgstr ""
+
+#: ajax/setup.php:107
+msgid "Invalid Input"
+msgstr ""
+
+#: ajax/status_poll.php:66
+msgid "Stopped"
+msgstr ""
+
+#: ajax/status_poll.php:67
+msgid "Frozen"
+msgstr ""
+#: ajax/status_poll.php:68
+msgid "Finished"
+msgstr ""
+#: ajax/subscriber_export.php:53
+msgid "Email"
+msgstr ""
+#: ajax/subscriber_export.php:55
+msgid "Date Registered"
+msgstr ""
+#: ajax/subscriber_export.php:57
+msgid "IP Address"
+msgstr ""
+
+#: ajax/subscriber_export.php:90 ajax/subscriber_export.php:110
+msgid "Subscribers"
+msgstr ""
+
+#: ajax/templates.php:61
+msgid "Template Deleted"
+msgstr ""
+
+#: ajax/users.php:51 install.php:65
+msgid "Passwords must match."
+msgstr ""
+
+#: classes/Pommo.php:169
+#, php-format
+msgid ""
+"Work Directory (%s) not found!\n"
+"\t\t\t\t\t\tMake sure it exists and the webserver can write to it.\n"
+"\t\t\t\t\t\tYou can change its location from the config.php file."
+msgstr ""
+
+#: classes/Pommo.php:176
+#, php-format
+msgid ""
+"Cannot write to Work Directory\n"
+"\t\t\t\t\t\t(%s). Make sure it has the proper permissions."
+msgstr ""
+
+#: classes/Pommo.php:181
+#, php-format
+msgid ""
+"Working Directory (%s) cannot be\n"
+"\t\t\t\t\t\tcreated under PHP SAFE MODE. See Documentation, or\n"
+"\t\t\t\t\t\tdisable SAFE MODE."
+msgstr ""
+
+#: classes/Pommo.php:189 classes/Pommo.php:196
+msgid "Could not create directory"
+msgstr ""
+
+#: classes/Pommo.php:499
+msgid "Redirecting, please wait..."
+msgstr ""
+
+#: classes/Pommo_Auth.php:56
+#, php-format
+msgid ""
+"Denied access. You must %slogin%s to\n"
+"\t\t\t\t\taccess this page..."
+msgstr ""
+
+#: classes/Pommo_Db.php:80
+msgid "Could not establish database connection."
+msgstr ""
+
+#: classes/Pommo_Db.php:80 classes/Pommo_Db.php:83
+msgid "Verify your settings in config.php"
+msgstr ""
+
+#: classes/Pommo_Db.php:83
+#, php-format
+msgid "Connected to database server but could not select database (%s). Does it exist?"
+msgstr ""
+
+#: classes/Pommo_Groups.php:55
+msgid "All Subscribers"
+msgstr ""
+
+#: classes/Pommo_Helper_Maintenance.php:35
+msgid "Can write to ERROR_LOG. Check work directory permissions!"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:51
+#, php-format
+msgid "An actvation mail has been sent to %s. Please follow its instructions to access your records."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:57
+#, php-format
+msgid "A confirmation mail has been sent to %s. Please follow its instructions to complete your request."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:86
+msgid "Error sending mail"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:116
+#, php-format
+msgid "Welcome to our mailing list. You can always login to update your records or unsubscribe by visiting: %s"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:117
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:118
+msgid "Welcome to our mailing list. Enjoy your stay."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:124
+#, php-format
+msgid "Farewell from %s"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:125
+msgid "You have been unsubscribed and will not receive any more mailings from us. Feel free to come back anytime!"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:126
+msgid "You have successfully unsubscribed. Enjoy your travels."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:132
+#, php-format
+msgid "You have requested to subscribe to %s. We would like to validate your email address before adding you as a subscriber. Please click the link below to be added ->"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:132 classes/Pommo_Helper_Messages.php:138
+#: classes/Pommo_Helper_Messages.php:145 classes/Pommo_Helper_Messages.php:151
+msgid "If you have received this message in error, please ignore it."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:133
+msgid "Subscription request"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:138
+#, php-format
+msgid "Someone has requested to access to your records for %s."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:138
+msgid "You may edit your information or unsubscribe by visiting the link below ->"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:139
+#, php-format
+msgid "%s: Account Access."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:145
+#, php-format
+msgid "You have requested to change your password for %s."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:145 classes/Pommo_Helper_Messages.php:151
+msgid "Please validate this request by clicking the link below ->"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:146
+msgid "Change Password request"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:151
+#, php-format
+msgid "You have requested to update your records for %s."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:152
+msgid "Update Records request"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:167
+msgid "poMMo test message"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:168
+#, php-format
+msgid "This message indicates that poMMo is able to use the %s exchanger."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:197
+#, php-format
+msgid "poMMo %s Notice"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:214
+msgid "new subscriber!"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:217
+msgid "user unsubscribed."
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:220
+msgid "new pending!"
+msgstr ""
+
+#: classes/Pommo_Helper_Messages.php:223
+msgid "subscriber updated."
+msgstr ""
+
+#: classes/Pommo_Install.php:70
+msgid "Database Error: "
+msgstr ""
+
+#: classes/Pommo_Mailer.php:314
+msgid "Sending failed: "
+msgstr ""
+
+#: classes/Pommo_Mailer.php:327
+#, php-format
+msgid "Mail to: %s not sent. Demonstration mode is active."
+msgstr ""
+
+#: classes/Pommo_Mailing_Template.php:70
+msgid "Both HTML and Text cannot be empty"
+msgstr ""
+
+#: classes/Pommo_Mta.php:128 classes/Pommo_Mta.php:416
+msgid "Mailing Complete."
+msgstr ""
+
+#: classes/Pommo_Mta.php:163
+#, php-format
+msgid "Restarting Mailing #%s"
+msgstr ""
+
+#: classes/Pommo_Mta.php:177
+#, php-format
+msgid "Started Mailing #%s"
+msgstr ""
+
+#: classes/Pommo_Mta.php:194
+#, php-format
+msgid "Stopped Mailing #%s"
+msgstr ""
+
+#: classes/Pommo_Mta.php:199
+msgid "Mailing Cancelled."
+msgstr ""
+
+#: classes/Pommo_Mta.php:206
+msgid "You must restart the mailing."
+msgstr ""
+
+#: classes/Pommo_Mta.php:426
+#, php-format
+msgid "Runtime (%s seconds) reached, respawning."
+msgstr ""
+
+#: classes/Pommo_Pending.php:328
+#, php-format
+msgid "You may now %1$s login %2$s with username: %3$s and password: %4$s "
+msgstr ""
+
+#: classes/Pommo_Rules.php:106
+msgid "is"
+msgstr ""
+
+#: classes/Pommo_Rules.php:107
+msgid "is not"
+msgstr ""
+
+#: classes/Pommo_Rules.php:108
+msgid "is checked"
+msgstr ""
+
+#: classes/Pommo_Rules.php:109
+msgid "is not checked"
+msgstr ""
+
+#: classes/Pommo_Rules.php:110
+msgid "is greater than"
+msgstr ""
+
+#: classes/Pommo_Rules.php:111
+msgid "is less than"
+msgstr ""
+
+#: classes/Pommo_Rules.php:112
+msgid "or in group"
+msgstr ""
+
+#: classes/Pommo_Rules.php:113
+msgid "and not in group"
+msgstr ""
+
+#: classes/Pommo_Template.php:58
+msgid "poMMo Website"
+msgstr ""
+
+#: classes/Pommo_Template.php:97
+#, php-format
+msgid ""
+"Template file (%s) not found in\n"
+"\t\t\t\t\t\tdefault or current theme"
+msgstr ""
+
+#: classes/Pommo_Validate.php:72
+#, php-format
+msgid "%s is a required field."
+msgstr ""
+
+#: classes/Pommo_Validate.php:93 classes/Pommo_Validate.php:106
+#: classes/Pommo_Validate.php:116
+#, php-format
+msgid "Illegal input for field %s."
+msgstr ""
+
+#: classes/Pommo_Validate.php:133
+#, php-format
+msgid "Field (%s) must be a date ("
+msgstr ""
+
+#: classes/Pommo_Validate.php:144
+#, php-format
+msgid "Field (%s) must be a number."
+msgstr ""
+
+#: confirm.php:41
+msgid "No code given."
+msgstr ""
+
+#: confirm.php:50
+msgid "Invalid code! Make sure you copied it correctly from the email."
+msgstr ""
+
+#: confirm.php:90 update.php:94
+msgid "Your records have been updated."
+msgstr ""
+
+#: form_generate.php:46
+msgid "VIEW THE SOURCE TO COPY, PASTE, EDIT, AND SAVE THE FORM TO AN APPROPRIATE LOCATION ON YOUR WEBSITE"
+msgstr ""
+#: form_generate.php:62
+msgid "Your Email:"
+msgstr ""
+#: form_generate.php:126
+msgid "Subscribe"
+msgstr ""
+#: groups_edit.php:40
+msgid "Groups Page"
+msgstr ""
+
+#: groups_edit.php:86
+msgid "INCLUDE"
+msgstr ""
+
+#: import_csv.php:38 import_csv2.php:90 import_txt.php:64
+msgid "Import"
+msgstr ""
+
+#: import_csv2.php:84
+#, php-format
+msgid "%s subscribers imported! Of these, %s were flagged to update their records."
+msgstr ""
+
+#: import_csv2.php:84
+#, php-format
+msgid "%s duplicates encountered."
+msgstr ""
+
+#: import_csv2.php:90 import_txt.php:64
+msgid "Complete!"
+msgstr ""
+
+#: import_csv2.php:90 import_txt.php:64
+msgid "Return to"
+msgstr ""
+
+#: index.php:76
+msgid "Failed login attempt. Try again."
+msgstr ""
+
+#: index.php:121
+msgid "Captcha did not match. Try again."
+msgstr ""
+
+#: install.php:42
+msgid "poMMo is already installed."
+msgstr ""
+
+#: install.php:67
+msgid "Must be a valid email"
+msgstr ""
+
+#: install.php:115
+msgid "Installation Complete! You may now login and setup poMMo."
+msgstr ""
+
+#: install.php:116
+msgid "Login Username: "
+msgstr ""
+
+#: install.php:117
+msgid "Login Password: "
+msgstr ""
+
+#: login.php:38
+msgid "subscriber logon"
+msgstr ""
+
+#: login.php:76
+msgid "Email address not found! Please try again."
+msgstr ""
+
+#: login.php:77
+#, php-format
+msgid "To subscribe, %sclick here%s"
+msgstr ""
+
+#: mailings.php:42
+msgid "Mailing History"
+msgstr ""
+#: mailings_history.php:36
+msgid "Mailings Page"
+msgstr ""
+
+#: mailings_start.php:46
+#, php-format
+msgid ""
+"%sDemonstration Mode%s is on -- no Emails\n"
+"\t\t\twill actually be sent. This is good for testing settings."
+msgstr ""
+#: mailings_start.php:63
+msgid "Personalization"
+msgstr ""
+
+#: mailings_start.php:65
+msgid "Save Template"
+msgstr ""
+
+#: pending.php:49
+msgid "subscription request"
+msgstr ""
+
+#: pending.php:53
+msgid "record update request"
+msgstr ""
+
+#: pending.php:57
+msgid "password change request"
+msgstr ""
+
+#: pending.php:70
+#, php-format
+msgid "Your %s has been cancelled."
+msgstr ""
+
+#: pending.php:74
+#, php-format
+msgid "Your %s is still pending. To complete this request, please review the confirmation email sent to %s."
+msgstr ""
+
+#: process.php:63 update.php:75
+msgid "Invalid Email Address"
+msgstr ""
+
+#: process.php:108
+msgid "Subscription request received."
+msgstr ""
+
+#: setup_configure.php:35
+msgid "Throttle Settings"
+msgstr ""
+
+#: setup_configure.php:36
+msgid "SMTP Settings"
+msgstr ""
+#: setup_configure.php:37
+msgid "Test Exchanger"
+msgstr ""
+
+#: setup_fields.php:68 subscribers_groups.php:67
+msgid "Confirm Action"
+msgstr ""
+
+#: setup_fields.php:71
+#, php-format
+msgid "Currently, %1$s subscribers have a non empty value for %2$s. All Subscriber data relating to this field will be lost."
+msgstr ""
+
+#: subscribers_groups.php:44
+#, php-format
+msgid "Group name (%s) already exists"
+msgstr ""
+
+#: subscribers_groups.php:70
+#, php-format
+msgid "%1$s filters belong this group . Are you sure you want to remove %2$s?"
+msgstr ""
+
+#: subscribers_groups.php:76
+msgid "Group cannot be deleted."
+msgstr ""
+
+#: subscribers_groups.php:78
+#, php-format
+msgid "%s deleted."
+msgstr ""
+#: subscribers_manage.php:37
+msgid "Subscribers Page"
+msgstr ""
+
+#: update.php:47
+msgid "Invalid activation code."
+msgstr ""
+
+#: update.php:73
+msgid "Emails must match."
+msgstr ""
+
+#: upgrade.php:42
+#, php-format
+msgid "poMMo does not appear to be installed! Please %s INSTALL %s before attempting an upgrade."
+msgstr ""
+
+#: upgrade.php:56
+#, php-format
+msgid "poMMo appears to be up to date. If you want to force an upgrade, %s click here %s"
+msgstr ""
+
+#: upgrade.php:69
+#, php-format
+msgid "To upgrade poMMo, %s click here %s"
+msgstr ""
+
+#: upgrade.php:80
+msgid "Upgrade Complete!"
+msgstr ""
+
+#: upgrade.php:91
+msgid "Upgrade Failed!"
+msgstr ""
+
+msgid "Admin Menu"
+msgstr ""
+
+msgid "Mailings"
+msgstr ""
+
+msgid "Send mailings to the entire list or to a subset of subscribers. Mailing status and history can also be viewed from here."
+msgstr ""
+
+msgid "Here you can list, add, delete, import, export, and update your subscribers. You can also create groups (subsets) of your subsribers from here."
+msgstr ""
+
+msgid "Setup"
+msgstr ""
+
+msgid "This area allows you to configure poMMo. Set mailing list parameters, choose the information you'd like to collect from subscribers, and generate subscription forms from here."
+msgstr ""
+
+msgid "Confirm your action."
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "please return"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "I confirm"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Create and send a mailing."
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "View mailings that have already been sent."
+msgstr ""
+
+msgid "Templates allow you to re-use your crafted message bodies. The HTML and text version is remembered."
+msgstr ""
+
+msgid "Fields marked like %1 this %2 are required."
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "(maximum of 60 characters)"
+msgstr ""
+
+msgid "Description:"
+msgstr ""
+
+msgid "(Brief Summary - 255 characters)"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Mailing sent to %1"
+msgstr ""
+
+msgid "Verify the appeareance of a mailing by sending a message to yourself."
+msgstr ""
+
+msgid "Recipient"
+msgstr ""
+
+msgid "Email:"
+msgstr ""
+
+msgid "Send Mailing"
+msgstr ""
+
+msgid "If your mailing includes personalizations, you can %1optionally%2 supply test values"
+msgstr ""
+
+msgid "Personalizations"
+msgstr ""
+
+msgid "Mailings may be personalized per subscriber. You can inject %1subscriber field%2 values, clickable links, and tracking information."
+msgstr ""
+
+msgid "Personalizations allow you to write a message like \"Dear [[firstName|Loyal Subscriber]], Happy New Year! .... follow this link to unsubscribe or update your records; [[!unsubscribe]]\"."
+msgstr ""
+
+msgid "Link (URL)"
+msgstr ""
+
+msgid "Tracking (ID)"
+msgstr ""
+
+msgid "Registered"
+msgstr ""
+
+msgid "Default (optional; used if no value exists)"
+msgstr ""
+
+msgid "Unsubscribe or Update Records"
+msgstr ""
+
+msgid "View on Web (public mailings must be enabled)"
+msgstr ""
+
+msgid "Subscriber ID"
+msgstr ""
+
+msgid "Mailing ID"
+msgstr ""
+
+msgid "Insert"
+msgstr ""
+
+msgid "HTML Message"
+msgstr ""
+
+msgid "Copy text from HTML Message"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Leave blank to send text only"
+msgstr ""
+
+msgid "Enable WYSIWYG"
+msgstr ""
+
+msgid "Add Personalization"
+msgstr ""
+
+msgid "Save as Template"
+msgstr ""
+
+msgid "Text Version"
+msgstr ""
+
+msgid "Leave blank to send HTML only"
+msgstr ""
+
+msgid "Disable WYSIWYG"
+msgstr ""
+
+msgid "View this Mailing on the Web"
+msgstr ""
+
+msgid "Preview Mailing"
+msgstr ""
+
+msgid "Subject:"
+msgstr ""
+
+msgid "To:"
+msgstr ""
+
+msgid "recipients"
+msgstr ""
+
+msgid "From:"
+msgstr ""
+
+msgid "Bounces:"
+msgstr ""
+
+msgid "Character Set:"
+msgstr ""
+
+msgid "Send Test"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Preview Message"
+msgstr ""
+
+msgid "Click Here"
+msgstr ""
+
+msgid "Send Mail To:"
+msgstr ""
+
+msgid "All subscribers"
+msgstr ""
+
+msgid "(Select who should receive the mailing. Control click ( or command click on the Mac ) to select multiple groups. Note: If a subscriber is in more than one group they will only receive one email and NOT one for each group that they're in.)"
+msgstr ""
+
+msgid "From Name:"
+msgstr ""
+
+msgid "From Email:"
+msgstr ""
+
+msgid "Return:"
+msgstr ""
+
+msgid "UTF-8 (recommended)"
+msgstr ""
+
+msgid "Western (ISO-8859-1)"
+msgstr ""
+
+msgid "Western (ISO-8859-15)"
+msgstr ""
+
+msgid "Central/Eastern European (ISO-8859-2)"
+msgstr ""
+
+msgid "Greek (ISO-8859-7)"
+msgstr ""
+
+msgid "Japanese (ISO-2022-JP)"
+msgstr ""
+
+msgid "Japanese (EUC-JP)"
+msgstr ""
+
+msgid "cyrillic (Windows-1251)"
+msgstr ""
+
+msgid "cyrillic (KOI8-R)"
+msgstr ""
+
+msgid "Simplified Chinese (GB2312)"
+msgstr ""
+
+msgid "(Select Character Set of Mailings)"
+msgstr ""
+
+msgid "loading..."
+msgstr ""
+
+msgid "You may %1load%2 or %1delete%2 templates from here."
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "choose template"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "No template selected"
+msgstr ""
+
+msgid "Skip"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Mailings take place in the background so feel free to close this page, visit other sites, or even turn off your computer. You can always return to this status page by visiting the Mailings section.  %1Throttle settings%2 can also be adjusted -- although you must pause and revive the mailing before changes take effect."
+msgstr ""
+
+msgid "Sending message to %1 subscribers."
+msgstr ""
+
+msgid "Mailing Status"
+msgstr ""
+
+msgid "Initializing..."
+msgstr ""
+
+msgid "Pause Mailing"
+msgstr ""
+
+msgid "Resume Mailing"
+msgstr ""
+
+msgid "Cancel Mailing"
+msgstr ""
+
+msgid "Mailing Finished"
+msgstr ""
+
+msgid "Command Recieved. Please wait..."
+msgstr ""
+
+msgid "%1 mails sent"
+msgstr ""
+
+msgid "Last 50 notices"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Sent Emails"
+msgstr ""
+
+msgid "Unsent Emails"
+msgstr ""
+
+msgid "Failed Emails"
+msgstr ""
+
+msgid "Return to %1"
+msgstr ""
+
+msgid "Mailings History"
+msgstr ""
+
+msgid "View Mailing"
+msgstr ""
+
+msgid "View Last Notices"
+msgstr ""
+
+msgid "Reload Checked Mailing"
+msgstr ""
+
+msgid "Delete Checked Mailings"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Group (count)"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Started"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "No records returned."
+msgstr ""
+
+msgid "Return to Subscribers Page"
+msgstr ""
+
+msgid "Return to Mailings Page"
+msgstr ""
+
+msgid "Templates"
+msgstr ""
+
+msgid "Compose"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Setup Page"
+msgstr ""
+
+msgid "Set your mailing list name, its default behavior, and the administrator's information."
+msgstr ""
+
+msgid "Subscriber Fields"
+msgstr ""
+
+msgid "Choose the information you'd like to collect from your subscribers."
+msgstr ""
+
+msgid "Subscription Form"
+msgstr ""
+
+msgid "Preview and Generate the subscription form for your website."
+msgstr ""
+
+msgid "Short Name:"
+msgstr ""
+
+msgid "Identifying name. NOT displayed on Subscription Form or seen by users."
+msgstr ""
+
+msgid "Form Name:"
+msgstr ""
+
+msgid "Prompt for field on the Subscription Form. e.g. %1Type your city%2"
+msgstr ""
+
+msgid "Required:"
+msgstr ""
+
+msgid "Toggle to require field on Subscription Form (user cannot leave blank if %1yes%2)"
+msgstr ""
+
+msgid "Active:"
+msgstr ""
+
+msgid "Toggle display of field for Subscription Form"
+msgstr ""
+
+msgid "Default:"
+msgstr ""
+
+msgid "If provided, this value will appear pre-filled on the subscription form"
+msgstr ""
+
+msgid "Select default choice"
+msgstr ""
+
+msgid "Multiple Choices"
+msgstr ""
+
+msgid "Add Option(s)"
+msgstr ""
+
+msgid "type option(s)"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Enter a multiple choice option. You can add more than one choice at a time by separating each with a comma."
+msgstr ""
+
+msgid "Delete Option(s)"
+msgstr ""
+
+msgid "SMTP Throttling"
+msgstr ""
+
+msgid "Throttle Sharing"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "(ON; the throttler will be global. OFF; independent throttler per relay.)"
+msgstr ""
+
+msgid "SMTP #%1"
+msgstr ""
+
+msgid "SMTP Status:"
+msgstr ""
+
+msgid "Connected to SMTP server"
+msgstr ""
+
+msgid "Unable to connect to SMTP server"
+msgstr ""
+
+msgid "SMTP Host:"
+msgstr ""
+
+msgid "(IP Address or Name of SMTP server)"
+msgstr ""
+
+msgid "Port Number:"
+msgstr ""
+
+msgid "(Port # of SMTP server [usually 25])"
+msgstr ""
+
+msgid "SMTP Authentication:"
+msgstr ""
+
+msgid "(Toggle SMTP Authentication [usually off])"
+msgstr ""
+
+msgid "SMTP Username:"
+msgstr ""
+
+msgid "(optional)"
+msgstr ""
+
+msgid "SMTP Password:"
+msgstr ""
+
+msgid "Update Relay #%1"
+msgstr ""
+
+msgid "This is your default relay"
+msgstr ""
+
+msgid "Remove Relay #%1"
+msgstr ""
+
+msgid "Add Another Relay"
+msgstr ""
+
+msgid "A test message will be sent to the supplied recipient. If you receive it, poMMo can use the %1 exchanger. Remember to check your SPAM folder too."
+msgstr ""
+
+msgid "(address to send test message to)"
+msgstr ""
+
+msgid "Global Rates"
+msgstr ""
+
+msgid "Mail Rate"
+msgstr ""
+
+msgid "%1 per Second"
+msgstr ""
+
+msgid "%1 per Hour"
+msgstr ""
+
+msgid "Bandwidth Limit"
+msgstr ""
+
+msgid "Restore Defaults"
+msgstr ""
+
+msgid "Rates per Domain"
+msgstr ""
+
+msgid "You may also limit the amount of mail a single domain receives in a period. This is useful for larger mailings, and prevents the \"slamming\" of the domain (which can get your mails rejected). As example, you can choose to send no more than 1 mail every 20 seconds to a domain by setting the mails to 1 and the period interval to 20. Warning; this setting will significantly delay a mailing if many of your subscribers use the same domain (e.g. @yahoo.com)."
+msgstr ""
+
+msgid "Period Interval"
+msgstr ""
+
+msgid "%1 seconds"
+msgstr ""
+
+msgid "%1 per Period"
+msgstr ""
+
+msgid "No Limit"
+msgstr ""
+
+msgid "List Name:"
+msgstr ""
+
+msgid "(The name of your Mailing List)"
+msgstr ""
+
+msgid "Website Name:"
+msgstr ""
+
+msgid "(The name of your Website)"
+msgstr ""
+
+msgid "Website URL:"
+msgstr ""
+
+msgid "(Web address of your Website)"
+msgstr ""
+
+msgid "Success URL:"
+msgstr ""
+
+msgid "(Webpage users will see upon successfull subscription. Leave blank to display default welcome page.)"
+msgstr ""
+
+msgid "Confirm URL:"
+msgstr ""
+
+msgid "(Webpage users will see upon subscription attempt. Leave blank to display default confirmation page.)"
+msgstr ""
+
+msgid "Email Confirmation:"
+msgstr ""
+
+msgid "(Set to validate email upon subscription attempt.)"
+msgstr ""
+
+msgid "Mail Exchanger:"
+msgstr ""
+
+msgid "PHP Mail Function"
+msgstr ""
+
+msgid "(Select Mail Exchanger)"
+msgstr ""
+
+msgid "Setup your SMTP Servers"
+msgstr ""
+
+msgid "(configure SMTP relays)"
+msgstr ""
+
+msgid "(Default name mails will be sent from)"
+msgstr ""
+
+msgid "(Default email mails will be sent from)"
+msgstr ""
+
+msgid "Bounce Address:"
+msgstr ""
+
+msgid "(Returned emails will be sent to this address)"
+msgstr ""
+
+msgid "Demonstration Mode:"
+msgstr ""
+
+msgid "(Toggle Demonstration Mode)"
+msgstr ""
+
+msgid "Public Mailings"
+msgstr ""
+
+msgid "(When on, the public can view past mailings at this %1URL%2)"
+msgstr ""
+
+msgid "Set mailing throttle values"
+msgstr ""
+
+msgid "(controls mails per second, bytes per second, and domain limits)"
+msgstr ""
+
+msgid "(Select Default Character Set of Mailings)"
+msgstr ""
+
+msgid "Runtime:"
+msgstr ""
+
+msgid "(Seconds a processing script runs for. Default: 80, Minimum: 15)"
+msgstr ""
+
+msgid "notifications"
+msgstr ""
+
+msgid "Administrators can be sent a notification of subscription list changes."
+msgstr ""
+
+msgid "Notification email(s):"
+msgstr ""
+
+msgid "(Notifications will be sent to the above address(es). Multiple addresses can be entered -- seperate with a comma.)"
+msgstr ""
+
+msgid "Subject Prefix:"
+msgstr ""
+
+msgid "(The subject of Notification Mails will begin with this)"
+msgstr ""
+
+msgid "Notify on %1"
+msgstr ""
+
+msgid "(sent upon successful subscription)"
+msgstr ""
+
+msgid "(sent upon successful unsubscription)"
+msgstr ""
+
+msgid "(sent upon subscriber update)"
+msgstr ""
+
+msgid "(sent upon subscription attempt)"
+msgstr ""
+
+msgid "Messages"
+msgstr ""
+
+msgid "Customize the messages sent to your users when they subscribe, unsubscribe, attempt to subscribe, or request to update their records."
+msgstr ""
+
+msgid "(Check to Enable)"
+msgstr ""
+
+msgid "Message:"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "(displayed on webpage)"
+msgstr ""
+
+msgid "Restore to Defaults"
+msgstr ""
+
+msgid "Subscription Confirmation"
+msgstr ""
+
+msgid "(Use %1[[url]]%2 for the confirm link at least once)"
+msgstr ""
+
+msgid "Account Access"
+msgstr ""
+
+msgid "Update Validation"
+msgstr ""
+
+msgid "Administrator Username:"
+msgstr ""
+
+msgid "(you will use this to login)"
+msgstr ""
+
+msgid "Administrator Password:"
+msgstr ""
+
+msgid "Verify Password:"
+msgstr ""
+
+msgid "(enter password again)"
+msgstr ""
+
+msgid "Administrator Email:"
+msgstr ""
+
+msgid "(email address of administrator)"
+msgstr ""
+
+msgid "Embedded Subscription Forms"
+msgstr ""
+
+msgid "Return to Subscription Forms"
+msgstr ""
+
+msgid "Subscription forms can easily be added to your website using a line of code. You can use the PHP include listed below, or embed the actual HTML. Remember, you can also direct subscribers to the "
+msgstr ""
+
+msgid "Default Subscribe Form"
+msgstr ""
+
+msgid "Mini Subscription Form"
+msgstr ""
+
+msgid "This prints a form which prompts for a user's email address. If the inputted email exists as a registered subscriber, it redirects to the subscriber update page. If not, it redirects to the the default subscription form."
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Full Subscription Form"
+msgstr ""
+
+msgid "This prints the entire subscription form."
+msgstr ""
+
+msgid "Return to Setup Page"
+msgstr ""
+
+msgid "You can change the login information, set website and mailing list parameters, end enable demonstration mode. If you enable demonstration mode, no emails will be sent from the system."
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Fields Page"
+msgstr ""
+
+msgid "Subscriber fields allow you to collect information on list members. They are typically displayed on the subscription form, although \"hidden\" ones can be used for administrative purposes. %1Groups%2 are based on subscriber field values."
+msgstr ""
+
+msgid "Fields"
+msgstr ""
+
+msgid "New field name:"
+msgstr ""
+
+msgid "type new field name"
+msgstr ""
+
+msgid "Field type:"
+msgstr ""
+
+msgid "Field Ordering"
+msgstr ""
+
+msgid "Change the ordering of fields on the subscription form by dragging and dropping the order icon"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Field Name"
+msgstr ""
+
+msgid "%1Green%2 fields are active."
+msgstr ""
+
+msgid "Subscription Forms"
+msgstr ""
+
+msgid "Default Subscription Form"
+msgstr ""
+
+msgid "Preview the default subscription form. Its look and feel can be adjusted through the theme template ([theme]/user/subscribe.php)."
+msgstr ""
+
+msgid "Embedded Subscription From"
+msgstr ""
+
+msgid "Preview subscription forms that you can embed into an area of an existing webpage."
+msgstr ""
+
+msgid "HTML Subscription Form"
+msgstr ""
+
+msgid "Generate a plain HTML subscription form that you can customize to fit your site."
+msgstr ""
+
+msgid "Manage"
+msgstr ""
+
+msgid "subscribers. See an overview of your current and pending subscribers. You can add, delete, and edit subscribers from here."
+msgstr ""
+
+msgid "Subscribers. You can import large amounts of subscribers using files stored on your computer."
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "Manage \"mailing groups\" from this area. Mailing groups allow you to mail subsets of your subscribers, rather than just the entire list."
+msgstr ""
+
+msgid "value must be a date"
+msgstr ""
+
+msgid "value must be a number"
+msgstr ""
+
+msgid "value must not be blank"
+msgstr ""
+
+msgid "Match subscribers where"
+msgstr ""
+
+msgid "Value(s)"
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Exclude"
+msgstr ""
+
+msgid "members in group %1."
+msgstr ""
+
+msgid "Welcome to adding subscribers! You can add subscribers one-by-one here. If you would like to add subscribers in bulk, visit the %1Subscriber Import%2 page."
+msgstr ""
+
+msgid "Add Subscriber"
+msgstr ""
+
+msgid "Force (bypasses validation)"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Enter email addresses of subscribers in the box below. Seperate emails with commas, spaces, or line breaks."
+msgstr ""
+
+msgid "Remove Subscribers"
+msgstr ""
+
+msgid "Email Addresses:"
+msgstr ""
+
+msgid "Enter Emails..."
+msgstr ""
+
+msgid "Edit Subscriber"
+msgstr ""
+
+msgid "Update Subscriber"
+msgstr ""
+
+msgid "Welcome to subscriber export!"
+msgstr ""
+
+msgid "Export Subscribers"
+msgstr ""
+
+msgid "Export Type"
+msgstr ""
+
+msgid ".TXT - Only Email Addresses"
+msgstr ""
+
+msgid ".CSV - All subscriber Data"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "All Pages"
+msgstr ""
+
+msgid "Current Page"
+msgstr ""
+
+msgid "Edit Group"
+msgstr ""
+
+msgid "To add subscribers to a group you must create matching rules. Subscribers are automatically added to a group if their %1subscriber field%2 values \"match\" a Group's rules. For example, if you collect \"AGE\" and \"COUNTRY\" as %1subscriber fields%2, you can match those who are 21+ and living in Japan by creating two rules; one which matches \"AGE\" to greater than 20, and another which matches \"Japan\" to \"COUNTRY\". Including or excluding members of other groups is possible."
+msgstr ""
+
+msgid "Change Name"
+msgstr ""
+
+msgid "Group name:"
+msgstr ""
+
+msgid "type new group name"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "Add Rule"
+msgstr ""
+
+msgid "Select a %1 field %2 to filter"
+msgstr ""
+
+msgid "Choose Subscriber Field"
+msgstr ""
+
+msgid "or, Select a %1 group %2 to include or exclude"
+msgstr ""
+
+msgid "Choose Group"
+msgstr ""
+
+msgid "Group Rules"
+msgstr ""
+
+msgid "Field"
+msgstr ""
+
+msgid "Logic"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "\"AND\" RULES"
+msgstr ""
+
+msgid "MATCH %1ALL%2 OF THE FOLLOWING"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "AND"
+msgstr ""
+
+msgid "OR"
+msgstr ""
+
+msgid "No rules have been added"
+msgstr ""
+
+msgid "\"OR\" RULES"
+msgstr ""
+
+msgid "<strong>OR</strong>, MATCH %1ANY%2 OF THE FOLLOWING"
+msgstr ""
+
+msgid "<strong>AND</strong>, ADD OR SUBTRACT MEMBERS IN OTHER GROUPS"
+msgstr ""
+
+msgid "%1Add%2 members matching %3"
+msgstr ""
+
+msgid "%1Subtract%2 members matching %3"
+msgstr ""
+
+msgid "%1 rules match a total of %2 active subscribers"
+msgstr ""
+
+msgid "Import Subscribers"
+msgstr ""
+
+msgid "Assign Fields"
+msgstr ""
+
+msgid "Below is a preview of your CSV data. You can assign subscriber fields to columns. At the very least, you must assign an email address."
+msgstr ""
+
+msgid "Ignore Column"
+msgstr ""
+
+msgid "You must assign an email column!"
+msgstr ""
+
+msgid "%1 non-duplicate subscribers will be imported. %2 were ignored as duplicates."
+msgstr ""
+
+msgid "Notice: Imported subscribers will be flagged to update their records"
+msgstr ""
+
+msgid "Subscriber Groups allow you to mail subsets of subscribers instead of the entire list. Groups are defined by customizable matching rules, and members are automatically assigned based on their %1subscriber field%2 values."
+msgstr ""
+
+msgid "New group"
+msgstr ""
+
+msgid "Group name"
+msgstr ""
+
+msgid "Group Name"
+msgstr ""
+
+msgid "Welcome to Subscriber Import! You can import subscribers from a list of email addresses or from a full fledged CSV file containing subscriber field values as well as their email. CSV files should have one subscriber(email) per line with field information seperated by commas(%1,%2)."
+msgstr ""
+
+msgid "Popular programs such as Microsoft Excel and %1 Open Office %2 support saving files in CSV (Comma-Seperated-Value) format."
+msgstr ""
+
+msgid "Duplicate subscribers or invalid email addresses will be ignored."
+msgstr ""
+
+msgid "List of Email Addresses"
+msgstr ""
+
+msgid "Type subscribers into a box"
+msgstr ""
+
+msgid "From a box"
+msgstr ""
+
+msgid "CSV file:"
+msgstr ""
+
+msgid "Upload subscribers from a file"
+msgstr ""
+
+msgid "From a file"
+msgstr ""
+
+msgid "Type/Paste Contents..."
+msgstr ""
+
+msgid "Allow unsubscribed emails to be re-subscribed."
+msgstr ""
+
+msgid "Add Subscribers"
+msgstr ""
+
+msgid "Active Subscribers"
+msgstr ""
+
+msgid "Unsubscribed"
+msgstr ""
+
+msgid "Belonging to Group"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Find Subscribers where"
+msgstr ""
+
+msgid "email"
+msgstr ""
+
+msgid "time registered"
+msgstr ""
+
+msgid "time last updated"
+msgstr ""
+
+msgid "is like"
+msgstr ""
+
+msgid "Delete Checked Subscribers"
+msgstr ""
+
+msgid "Edit Checked"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Database Host"
+msgstr ""
+
+msgid "Database Name"
+msgstr ""
+
+msgid "Database User"
+msgstr ""
+
+msgid "Database Password"
+msgstr ""
+
+msgid "Page fueled by poMMo mailing management software"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "Admin Page"
+msgstr ""
+
+msgid "Setup Form"
+msgstr ""
+
+msgid "Demonstration mode is ON."
+msgstr ""
+
+msgid "Demonstration mode is OFF."
+msgstr ""
+
+msgid "Record(s)"
+msgstr ""
+
+msgid "Match(es)"
+msgstr ""
+
+msgid "Administrative Login"
+msgstr ""
+
+msgid "You have requested to reset your password. If you are sure you want to do this, please fill in the captcha below. Enter the text you see between the brackets (%1[]%2)."
+msgstr ""
+
+msgid "Captcha"
+msgstr ""
+
+msgid "Captcha Text:"
+msgstr ""
+
+msgid "Reset Password"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Log In"
+msgstr ""
+
+msgid "Forgot your password?"
+msgstr ""
+
+msgid "Installation"
+msgstr ""
+
+msgid "Online install"
+msgstr ""
+
+msgid "Welcome to the online installation process. We have connected to the database and set your language successfully. Fill in the values below, and you'll be on your way!"
+msgstr ""
+
+msgid "Configuration Options"
+msgstr ""
+
+msgid "Name of Mailing List:"
+msgstr ""
+
+msgid "(ie. Brice's Mailing List)"
+msgstr ""
+
+msgid "Name of Website:"
+msgstr ""
+
+msgid "(ie. The poMMo Website)"
+msgstr ""
+
+msgid "(ie. http://www.pommo-rocks.com/)"
+msgstr ""
+
+msgid "(enter your valid email address)"
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "To disable debugging"
+msgstr ""
+
+msgid "To enable debugging"
+msgstr ""
+
+msgid "Continue to login page"
+msgstr ""
+
+msgid "Join newsletter"
+msgstr ""
+
+msgid "Choose Selection"
+msgstr ""
+
+msgid "Your Information"
+msgstr ""
+
+msgid "New Email:"
+msgstr ""
+
+msgid "Verify New Email:"
+msgstr ""
+
+msgid "Update Records"
+msgstr ""
+
+msgid "Are you sure you want to."
+msgstr ""
+
+msgid "Support Page"
+msgstr ""
+
+msgid "Upgrader"
+msgstr ""
+
+msgid "Online Upgrade Script"
+msgstr ""
+
+msgid "Welcome to the poMMo online upgrade process. This script will automatically upgrade your old version of poMMo."
+msgstr ""
+
+msgid "To force the upgrade"
+msgstr ""
+
+msgid "Update Activation"
+msgstr ""
+
+msgid "We require that you verify your email address before unsubscribing or updating your records. This extra step is necessary to maintain your privacy, and to protect you against fraudulent activity."
+msgstr ""
+
+msgid "An activation email has recently been sent to %1. Please check your inbox."
+msgstr ""
+
+msgid "Subscriber Confirmation"
+msgstr ""
+
+msgid "Subscriber Login"
+msgstr ""
+
+msgid "In order to check your subscription status, update your information, or unsubscribe, you must enter your email address in the field below."
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Pending Changes"
+msgstr ""
+
+msgid "SEND another confirmation email"
+msgstr ""
+
+msgid "CANCEL your pending request"
+msgstr ""
+
+msgid "Subscription Review"
+msgstr ""
+
+msgid "Back to Subscription Form"
+msgstr ""
+
+msgid "%1Update your records%2"
+msgstr ""
+
+msgid "Subscriber Update"
+msgstr ""
+
+msgid "Unsubscribe"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Click to unsubscribe"
+msgstr ""
+
+msgid "Really unsubscribe?"
+msgstr ""
+
+msgid "January"
+msgstr ""
+
+msgid "Febuary"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
+msgid "April"
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "June"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "August"
+msgstr ""
+
+msgid "September"
+msgstr ""
+
+msgid "October"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "December"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Prev"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Choose Date"
+msgstr ""

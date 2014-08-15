@@ -1,0 +1,25 @@
+The throttling script
+
+The throttling and queue processing starts with a request to
+ajax/mailing_send4.php. This file starts the throttling process and calls itself
+when the scripts times out. This process is repeated until the mailing is sent
+to all recipients.
+
+What it does (in general terms)
+
+- Gets the throttling configuration values from the DB.
+- Initlizes the spawn counter (this is stored in a session).
+- Create a Pommo_Mta object ($mailing).
+    - Retrieves the actual email (subject, body, etc...) from the DB.
+- Verifies if there is a command (stop mailing, pause mailing, etc) in
+the database ($mailing->poll()).
+- Check if the mail has personalizations and store in session.
+- Create and configure a Pommo_Mailer(extends PHPMailer) object ($mailer).
+- Associate $mailer to $mailing->_mailer.
+- Create Pommo_Throttler object ($throttler). This object checks that the
+throttling limits set in the configuration are respected.
+- Associate $throttler to $mailing->_throttler.
+- Get a slice of subscribers from the DB ($mailing->pullQueue()). At this point we
+are only getting their id and email address.
+- Pass queue to throttler ($mailing->pushThrottler()).
+- Process the queue ($mailing->processQueue()).

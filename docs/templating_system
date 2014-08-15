@@ -1,0 +1,40 @@
+Pommo templating system has drastically changed. It used to use smarty, but since
+it made it difficult for developers to understand it has been changed to plain
+php.
+
+Pommo_Template works the same way as it used to. The difference is in the call
+to the "display" function.
+
+How it used to be:
+
+$view->display('configure.tpl');
+
+How it is now:
+
+$view->display('configure');
+
+Smarty used the .tpl extension for its templates, now we are going to use plain
+php files. The extension is added by the display function, so you should only
+pass the name of the template.
+
+Since the template file is now php you don't have to learn smarty to display
+your views. You can do anything you need with the php you are already familiar
+with.
+
+When you assign a variable to a view you can access it as an attribute of $this
+in the template file.
+
+If you assign a value in your controller like this:
+
+$view->assign('title', 'I am the title');
+
+You could access it from your view like this:
+
+<?php
+	echo '<h1>'.$this->title.'</h1>';
+?>
+
+You can pass string, numbers, arrays, etc... and show them however you want
+using php.
+
+

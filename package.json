@@ -1,0 +1,12 @@
+{
+  "name": "poMMo",
+  "version": "0.0.1",
+  "description": "poMMo mass mailer",
+  "author": "Adrian Ancona <soonick5@yahoo.com.mx>",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-cli": "*",
+    "grunt-phplint": "0.0.5",
+    "grunt-phpcs": "0.2.0"
+  }
+}

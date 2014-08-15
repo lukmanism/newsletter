@@ -1,0 +1,80 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #F7F7F7;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+img {
+	border: 0;
+}
+#container {
+	padding: 0px 10px 7px 10px;
+	height: 340px;
+}
+#filemanager-menu {
+	clear: both;
+	height: 29px;
+	margin-bottom: 3px;
+}
+#column-left {
+	background: #FFF;
+	border: 1px solid #CCC;
+	float: left;
+	width: 20%;
+	height: 320px;
+	overflow: auto;
+}
+#column-right {
+	background: #FFF;
+	border: 1px solid #CCC;
+	float: right;
+	width: 78%;
+	height: 320px;
+	overflow: auto;
+	text-align: center;
+}
+#column-right div {
+	text-align: left;
+	padding: 5px;
+}
+#column-right a {
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #EEEEEE;
+	cursor: pointer;
+	margin: 5px;
+	padding: 5px;
+}
+#column-right a.selected {
+	border: 1px solid #7DA2CE;
+	background: #EBF4FD;
+}
+#column-right input {
+	display: none;
+}
+#dialog {
+	display: none;
+}
+.button {
+	display: block;
+	float: left;
+	padding: 8px 5px 8px 25px;
+	margin-right: 5px;
+	background-position: 5px 6px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: #EEEEEE;
+}
+.thumb {
+	padding: 5px;
+	width: 105px;
+	height: 105px;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	cursor: move;
+	position: relative;
+}
